@@ -3,4 +3,6 @@ Write-Host 'Achieved via:'
 Write-Host 'T1566.001 - Spearphishing Attachment'
 Write-Host 'https://attack.mitre.org/techniques/T1566/001/''
 
+$Button = $Shell.Popup("Click OK to continue.", 0, "Continue", 0)
+Write-Host 'Attempting stage 2 execution...'
 Write-Host 'Attempting stage 2 execution...'
